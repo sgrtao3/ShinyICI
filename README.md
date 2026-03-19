@@ -47,13 +47,6 @@ remotes::install_github()
 
 ## Data setup
 
-The CRAN package does not include the large Shiny app datasets.
-
-Download the data folder: 
-inst/app/data
-
-Unzip it to a local folder, then run:
-
 ```r
 ICBResponse::run_app()
 ```
