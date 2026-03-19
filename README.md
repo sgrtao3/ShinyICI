@@ -45,7 +45,7 @@ Typical contents of this repository include:
 remotes::install_github()
 ```
 
-## Data setup
+## Run App
 
 ```r
 ICBResponse::run_app()
