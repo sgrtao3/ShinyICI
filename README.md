@@ -41,8 +41,6 @@ Typical contents of this repository include:
 
 ## Installation
 
-You can install the package from a local source tarball:
-
 ```r
 remotes::install_github()
 ```
