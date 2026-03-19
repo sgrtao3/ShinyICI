@@ -44,7 +44,7 @@ Typical contents of this repository include:
 You can install the package from a local source tarball:
 
 ```r
-install.packages("ICBResponse_0.1.0.tar.gz", repos = NULL, type = "source")
+remotes::install_github()
 ```
 
 ## Data setup
@@ -57,5 +57,5 @@ inst/app/data
 Unzip it to a local folder, then run:
 
 ```r
-ICBResponse::run_app(data_dir = "/path/to/data")
+ICBResponse::run_app()
 ```
